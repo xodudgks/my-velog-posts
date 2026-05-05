@@ -1,9 +1,8 @@
 import feedparser
 import os
 
-# 본인의 벨로그 아이디로 변경해주세요!
 VELOG_ID = 'dev-xodud'
-RSS_URL = f'https://v2.velog.io/rss/@{dev-xodud}'
+RSS_URL = f'https://v2.velog.io/rss/@{VELOG_ID}'
 
 # posts 폴더가 없으면 만듭니다.
 os.makedirs('posts', exist_ok=True)
