@@ -1,7 +1,7 @@
 import feedparser
 import os
 
-VELOG_ID = 'dev-xodud'
+VELOG_ID = 'xodud_05'
 RSS_URL = f'https://v2.velog.io/rss/@{VELOG_ID}'
 
 # posts 폴더가 없으면 만듭니다.
